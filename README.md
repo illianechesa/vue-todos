@@ -1,5 +1,11 @@
 # To-Do Vue Application
 
+## Home page
+
+![Homepage](./src/assets/home.png)
+![Selection](./src/assets/selected.png)
+![Filtering](./src/assets/filter.png)
+
 ## Project setup
 ```
 npm install
@@ -23,6 +29,4 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### Home page
 
-![Homepage](./src/assets/home.png)
