@@ -5,7 +5,7 @@
     </div>
 
     <div id="main-container">
-      <h2>Todos</h2>
+      <h2>Tasks</h2>
       <TodoAdd v-on:add-todo="addTodo"/>
       <Todos v-bind:todoslist="copyTodos" v-on:delete-todo="deleteTodo" />
     </div>
@@ -89,7 +89,8 @@ export default {
     background: black;
     padding: 10px;
   }
-  h2{
+  h2,h6{
     padding: 0 10px;
+    text-align: center;
   }
 </style>
