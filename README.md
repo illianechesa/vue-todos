@@ -25,4 +25,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Home page
 
-![Homepage](./assets/home.png)
+![Homepage](./src/assets/home.png)
