@@ -1,6 +1,7 @@
 <template>
     <div id="search-container">
-        <input type="text" v-model="query" v-on:input="$emit('query-change', query)">
+        <h2 style="color: white; text-align: center">To-Do Application</h2>
+        <input placeholder="Search for tasks..." type="text" v-model="query" v-on:input="$emit('query-change', query)">
     </div>
 </template>
 
