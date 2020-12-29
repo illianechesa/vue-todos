@@ -47,23 +47,18 @@ export default {
       todos: [
         {
           id: 0,
-          title:  'comprar la cena',
+          title:  'Go to the gym',
           completed: false
         },
         {
          id: 1,
-         title: 'Sacar a pasear al perro',
-         completed: true
-       },
-       {
-         id: 2,
-         title: 'jugar Xbox',
+         title: 'Play the guitar',
          completed: false
        },
        {
-         id: 3,
-         title: 'Terminar tutorial',
-         completed: true
+         id: 2,
+         title: 'Finish Vue course',
+         completed: false
        }
       ],
       copyTodos: []
