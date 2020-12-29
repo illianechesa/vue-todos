@@ -1,6 +1,6 @@
 <template>
     <div class="todo" v-bind:class="{completed: todo.completed}">
-        <div class="todo-body" >
+        <div class="todo-body" style="font-size: 75%">
             <input type="checkbox" 
                 v-bind:checked="todo.completed ? 'checked': ''"
                 v-on:change="checkTodo">
